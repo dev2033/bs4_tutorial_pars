@@ -27,7 +27,7 @@ import json
 #         file.write(f'{line}\n')
 
 """
-Далее работаем с файлом persons_url_list, 
+Далее работаем с файлом persons_url_list,
 чтобы не бомбить сайт запросами
 """
 
