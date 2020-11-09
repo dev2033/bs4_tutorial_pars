@@ -19,7 +19,7 @@ def send_mail() -> None:
     subject = input("Введи текст темы сообщения: ")
     main_body_text = input("Введи текст сообщения для отправки: ")
 
-    # Отправка текста: (как альтернатива)
+    # Отправка текста: (как альтернатива способу ниже)
     # msg_img = MIMEMultipart()
     # msg = MIMEText(body, 'plain', 'utf-8')
     # msg['Subject'] = Header(subject, 'utf-8')
@@ -43,7 +43,3 @@ def send_mail() -> None:
 
 
 send_mail()
-
-
-
-
