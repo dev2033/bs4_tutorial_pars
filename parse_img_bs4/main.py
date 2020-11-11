@@ -24,7 +24,8 @@ def pars_img():
         urlretrieve(image, filename="penis.png")
         print("Скачивание успешно завершено")
     except Exception:
-        print("Не удалось скачать!!!ы")
+        print("Не удалось скачать!!!")
 
 
-pars_img()
+if __name__ == '__main__':
+    pars_img()
