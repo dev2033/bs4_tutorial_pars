@@ -31,7 +31,6 @@ class Currency:
         soup = BeautifulSoup(full_page.content, 'html.parser')
 
         convert = soup.find("span", class_="DFlfde SwHCTb")
-
         return float(convert.text.replace(',', ''))
 
     def check_currency(self):
